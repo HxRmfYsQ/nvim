@@ -1,5 +1,5 @@
 let $NVIMCONFIG=stdpath('config')
-let mapledaer=","
+let mapleader=","
 
 "----- plug manager -----"
 call plug#begin(stdpath('data').'/plugged')
@@ -12,6 +12,10 @@ Plug 'sheerun/vim-polyglot'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
+" Plug 'tmhedberg/SimpylFold'
+Plug 'preservim/tagbar'
+Plug 'kien/ctrlp.vim'
+Plug 'brooth/far.vim'
 
 call plug#end()
 "----- plug manager -----"
@@ -40,6 +44,7 @@ set encoding=utf8
 "----- plug config -----
 " source $HOME/.config/nvim/coc.vim
 source $NVIMCONFIG/coc.vim
+" let g:SimpylFold_docstring_preview=1
 "----- plug config -----
 
 "----- keymapping -----

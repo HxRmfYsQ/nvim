@@ -1,4 +1,9 @@
 " TextEdit might fail if hidden is not set.
+let g:coc_global_extensions = [
+	\ 'coc-pyright',
+	\ 'coc-syntax', 
+	\ 'coc-highlight' ]
+
 set hidden
 
 " Some servers have issues with backup files, see #649.
