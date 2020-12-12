@@ -16,6 +16,7 @@ Plug 'tpope/vim-repeat'
 Plug 'preservim/tagbar'
 Plug 'kien/ctrlp.vim'
 Plug 'brooth/far.vim'
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 "----- plug manager -----"

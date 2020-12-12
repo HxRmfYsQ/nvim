@@ -1,0 +1,10 @@
+{
+	"languageserver": {
+		"rust": {
+			"command": "rust-analyzer",
+			"filetypes": ["rust"],
+			"rootPatterns": ["Cargo.toml"]
+		}
+	},
+	"rust-analyzer.serverPath": "/home/ubuntu/.local/bin/rust-analyzer"
+}
