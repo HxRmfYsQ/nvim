@@ -17,6 +17,7 @@ Plug 'preservim/tagbar'
 Plug 'kien/ctrlp.vim'
 Plug 'brooth/far.vim'
 Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-commentary'
 
 call plug#end()
 "----- plug manager -----"
@@ -54,12 +55,13 @@ source $NVIMCONFIG/keymapping.vim
 
 
 "----- theme config -----
-if (has("nvim"))
-	"For Neovim 0.1.3 and 0.1.4 < https://github.com/neovim/neovim/pull/2198 >
-	let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-endif
-if (has("termguicolors"))
-	set termguicolors
-endif
+"if (has("nvim"))
+"	"For Neovim 0.1.3 and 0.1.4 < https://github.com/neovim/neovim/pull/2198 >
+"	let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+"endif
+"if (has("termguicolors"))
+"	set termguicolors
+"endif
+set termguicolors
 colorscheme onedark
 "----- theme config -----
