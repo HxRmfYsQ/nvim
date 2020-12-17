@@ -12,7 +12,6 @@ Plug 'sheerun/vim-polyglot'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
-" Plug 'tmhedberg/SimpylFold'
 Plug 'preservim/tagbar'
 Plug 'kien/ctrlp.vim'
 Plug 'brooth/far.vim'
@@ -41,6 +40,8 @@ set ignorecase
 set smartcase
 set incsearch
 set encoding=utf8
+set foldenable
+set foldmethod=indent
 "----- vim config -----
 
 "----- plug config -----
